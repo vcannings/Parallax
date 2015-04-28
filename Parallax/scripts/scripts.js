@@ -18,12 +18,12 @@ $(document).ready(function() {
         var scrollPosition = $("body").scrollTop();
         console.log(scrollPosition); 
        
-        if(scrollPosition > 350) {
-            $("#navImage").fadeIn();
+        if(scrollPosition > 500) {
+            $("#navImage").fadeIn(800);
         }
         
-        if(scrollPosition < 350) {
-            $("#navImage").fadeOut();
+        if(scrollPosition < 500) {
+            $("#navImage").fadeOut(500);
         }
         
         if(scrollPosition > 350) {
@@ -36,7 +36,9 @@ $(document).ready(function() {
         
     });
     
+    
     $( "#navImage" ).click(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
     });
+    
 });
