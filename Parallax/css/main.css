@@ -1,0 +1,67 @@
+/*
+    Class should get applied to every section you want to have a parallax effect on, along with 
+    the data-* attributes in the html. You'll probably want to keep the min-height here and 
+    on the overlay class that follows it the same. I've also set up a .parallax-window-tall and 
+    .overlay-tall calss to make the content area larget for things that get hidden and shown later on
+    you could set up as many of these as you need. 
+*/
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.parallax-window-tall {
+    min-height: 800px;
+}
+
+.overlay {
+    min-height: 400px;
+    padding: 50px;
+}
+
+.overlay-tall {
+    min-height: 800px;
+}
+
+/*
+    BACKGROUND OVERLAY CLASSES
+    You could set up as many of these classes a you want to manage the background of a section. 
+    These classes also take care of settign an appropriate text color 
+*/
+.black-bg {
+    background: rgba(0, 0, 0, 0.55);
+    color: #ffffff;
+}
+
+.white-bg {
+    background: rgba(255, 255, 255, 0.65);
+    color: #000;
+}
+/*
+    END BACKGROUND OVERLAY CLASSES
+*/
+
+.container {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*
+    Class to apply to images to make sure they are only ever as big as their 
+    containing element (should be applied to the img tag eg <img class="image-width".....)
+*/
+.image-width {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
