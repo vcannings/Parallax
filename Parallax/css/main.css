@@ -10,8 +10,12 @@
     background: transparent;
 }
 
-.parallax-window-tall {
+.parallax-window-mid {
     min-height: 800px;
+}
+
+.parallax-window-tall {
+    min-height: 1600px;
 }
 
 .overlay {
@@ -19,8 +23,12 @@
     padding: 50px;
 }
 
-.overlay-tall {
+.overlay-mid {
     min-height: 800px;
+}
+
+.overlay-tall {
+    min-height: 1600px;
 }
 
 /*
@@ -69,6 +77,13 @@
 
 .border-right {
     float: right;
+}
+
+#navImage {
+    float: right;
+    bottom: 0;
+    right: 0;
+    position: fixed;
 }
 
 
