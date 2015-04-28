@@ -58,8 +58,18 @@
     width: 100%;
 }
 
+.border {
+    display: inline;
+    z-index: 1000;
+}
 
+.border-left {
+    float: left;
+}
 
+.border-right {
+    float: right;
+}
 
 
 
