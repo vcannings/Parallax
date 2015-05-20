@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Top Cop</title>
+    <link rel="stylesheet" href="css/example.css" />
+</head>
+<body>
+    
+    <div class="headerImage">
+    <img class="ImageTitle" src="images/header.png">
+    <img class="ImageNote" src="images/note.png">
+    </div>
+    <div class="horizon scroll">
+        <img src="images/desk.png" alt="" />
+    </div>
+    <div class="middle scroll">
+        <img src="images/props.png" alt="" />
+    </div>
+    <div class="front scroll">
+      <video id="video" width="600px" height="400px" controls>
+      <source src="images/Video.mp4" type="video/mp4">  
+      </video>
+        
+      <img id="imageEpitome" src="images/play.png" onclick="playPause()">
+      <audio id="Epitome">
+        <source src="images/Epitome.mp3" type="audio/mpeg">
+      </audio>
+        
+      <video id="videoTwo" width="500px" height="333px" controls>
+      <source src="images/Video.mp4" type="video/mp4">  
+      </video>
+        
+      <video id="videoThree" width="500px" height="333px" controls>
+      <source src="images/Video.mp4" type="video/mp4">  
+      </video>
+      
+      
+        
+      <img src="images/easteregg.jpg" id="easterEgg">
+      <img src="images/businesscard.png" id="businessCard">
+    </div>
+    <script type="text/javascript" src="../libs/jquery.min.js"></script>
+    <script type="text/javascript" src="../dist/js/jquery.jInvertScroll.js"></script>
+    <script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+                
+                if(percent > 0.0467) {
+            $(".ImageTitle").fadeOut(400);
+        }
+        
+        if(percent < 0.0467) {
+            $(".ImageTitle").fadeIn(400);
+        }
+                if(percent > 0.1140) {
+            $(".ImageNote").fadeOut(400);
+        }
+        
+        if(percent < 0.1140) {
+            $(".ImageNote").fadeIn(400);
+        }
+              
+                
+                
+            }
+        });
+    }(jQuery));
+        
+    var Epitome = document.getElementById("Epitome"); 
+
+function playPause() { 
+    if (Epitome.paused) 
+        Epitome.play(); 
+    else 
+        Epitome.pause(); 
+} 
+
+    </script>
+</body>
+</html>

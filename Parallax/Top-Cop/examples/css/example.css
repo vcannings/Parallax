@@ -1,0 +1,141 @@
+html,
+body
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+body
+{
+  overflow-x: hidden;
+  background-color: #96a2bd;
+}
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+
+
+.scroll
+{
+  position: fixed;
+  bottom: -4px;
+  left: 0;
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+.horizon
+{
+  z-index: 1;
+  width: 16000px;
+}
+
+.middle
+{
+  z-index: 500;
+  width: 16000px;
+}
+
+.front
+{
+  z-index: 900;
+  width: 16000px;
+}
+
+.headerImage {
+    top: 0;
+    left: 0;
+    width: 1600px;
+}
+
+.ImageTitle {
+    margin-top: 20px;
+}
+
+.ImageNote {
+    bottom: 20px;
+    right: 40px;
+    position: absolute;
+}
+
+#video {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -672px;
+    left: 4078px;
+}
+
+#videoTwo {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -514px;
+    left: 6698px;
+}
+
+#videoThree {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -520px;
+    left: 9301px;
+}
+
+#easterEgg {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -800px;
+    left: 5550px;
+    width: 250px;
+    height: 300px;
+    margin: 20px; 
+    border: 5px solid #eee;
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+    -webkit-transition: all 0.5s ease-out; 
+    -moz-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease;
+}
+
+#easterEgg:hover { 
+-webkit-transform: rotate(-7deg); 
+-moz-transform: rotate(-7deg); 
+-o-transform: rotate(-7deg); 
+}
+
+#businessCard {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -800px;
+    left: 7000px;
+    margin: 20px; 
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+    -webkit-transition: all 0.5s ease-out; 
+    -moz-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease;
+}
+
+#businessCard:hover { 
+-webkit-transform: rotate(-7deg); 
+-moz-transform: rotate(-7deg); 
+-o-transform: rotate(-7deg); 
+}
+
+#imageEpitome {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -262px;
+    left: 5904px;
+}
