@@ -53,10 +53,6 @@ body
     width: 1600px;
 }
 
-.ImageTitle {
-    margin-top: 20px;
-}
-
 .ImageNote {
     bottom: 20px;
     right: 40px;
@@ -75,16 +71,16 @@ body
     float: left;
     display: inline;
     position: absolute;
-    top: -514px;
-    left: 6698px;
+    top: -510px;
+    left: 6690px;
 }
 
 #videoThree {
     float: left;
     display: inline;
     position: absolute;
-    top: -520px;
-    left: 9301px;
+    top: -530px;
+    left: 9297px;
 }
 
 #easterEgg {
