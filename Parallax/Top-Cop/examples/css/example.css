@@ -128,6 +128,14 @@ body
 -o-transform: rotate(-7deg); 
 }
 
+#Cigarettes {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -360px;
+    left: 8400px;   
+}
+
 #imageDictaphone {
     float: left;
     display: inline;
