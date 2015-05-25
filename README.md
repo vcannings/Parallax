@@ -2,4 +2,4 @@
 
 The main index page for this project can be found inside the 'examples' folder under 'index.htm'
 
-This project uses the jInvertScroll plugin found <a targer="__blank" href="https://github.com/pixxelfactory/jInvertScroll">here</a> 
+This project uses the jInvertScroll plugin found <a target="_blank" href="https://github.com/pixxelfactory/jInvertScroll">here</a> 
