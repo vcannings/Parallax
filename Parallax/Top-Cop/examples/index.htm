@@ -15,16 +15,16 @@
         <img src="images/desk.png" alt="" />
     </div>
     <div class="middle scroll">
-        <img src="images/props.png" alt="" />
+        <img src="images/propsnew.png" alt="" />
     </div>
     <div class="front scroll">
       <video id="video" width="600px" height="400px" controls>
       <source src="images/Video.mp4" type="video/mp4">  
       </video>
         
-      <img id="imageEpitome" src="images/play.png" onclick="playPause()">
-      <audio id="Epitome">
-        <source src="images/Epitome.mp3" type="audio/mpeg">
+      <img id="imageDictaphone" src="images/play.png" onclick="playPause()">
+      <audio id="musicOne">
+        <source src="images/musicOne.mp3" type="audio/mpeg">
       </audio>
         
       <video id="videoTwo" width="500px" height="333px" controls>
@@ -34,6 +34,16 @@
       <video id="videoThree" width="500px" height="333px" controls>
       <source src="images/Video.mp4" type="video/mp4">  
       </video>
+        
+      <img id="imageRadio" src="images/button.png" onclick="playPauseTwo()">
+      <audio id="musicTwo">
+        <source src="images/musicTwo.mp3" type="audio/mpeg">
+      </audio>
+        
+        <img id="imagePhone" src="images/pause.png" onclick="playPauseThree()">
+      <audio id="musicThree">
+        <source src="images/musicThree.mp3" type="audio/mpeg">
+      </audio>
       
       
         
@@ -70,14 +80,32 @@
         });
     }(jQuery));
         
-    var Epitome = document.getElementById("Epitome"); 
+    var musicOne = document.getElementById("musicOne"); 
 
 function playPause() { 
-    if (Epitome.paused) 
-        Epitome.play(); 
+    if (musicOne.paused) 
+        musicOne.play(); 
     else 
-        Epitome.pause(); 
+        musicOne.pause(); 
 } 
+        
+var musicTwo = document.getElementById("musicTwo"); 
+
+function playPauseTwo() { 
+    if (musicTwo.paused) 
+        musicTwo.play(); 
+    else 
+        musicTwo.pause(); 
+} 
+        
+var musicThree = document.getElementById("musicThree"); 
+
+function playPauseThree() { 
+    if (musicThree.paused) 
+        musicThree.play(); 
+    else 
+        musicThree.pause(); 
+}
 
     </script>
 </body>

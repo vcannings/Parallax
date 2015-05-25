@@ -132,10 +132,26 @@ body
 -o-transform: rotate(-7deg); 
 }
 
-#imageEpitome {
+#imageDictaphone {
     float: left;
     display: inline;
     position: absolute;
-    top: -262px;
-    left: 5904px;
+    top: -264px;
+    left: 5669px;
+}
+
+#imageRadio {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -294px;
+    left: 11234px;
+}
+
+#imagePhone {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -207px;
+    left: 13380px;
 }
