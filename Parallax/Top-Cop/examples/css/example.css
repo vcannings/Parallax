@@ -48,16 +48,13 @@ body
 }
 
 .headerImage {
-    top: 0;
+    bottom: -4px;
     left: 0;
-    width: 1600px;
-}
-
-.ImageNote {
-    bottom: 20px;
-    right: 40px;
+    width: 100%;
     position: absolute;
 }
+
+
 
 #video {
     float: left;
@@ -71,16 +68,56 @@ body
     float: left;
     display: inline;
     position: absolute;
-    top: -510px;
-    left: 6690px;
+    top: -530px;
+    left: 9156px;
 }
 
 #videoThree {
     float: left;
     display: inline;
     position: absolute;
-    top: -530px;
-    left: 9297px;
+    top: -535px;
+    left: 10802px;
+}
+
+#boardNoteOne {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -780px;
+    left: 3900px;
+}
+
+#boardNoteTwo {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -700px;
+    left: 6750px;
+}
+
+#deskNoteOne {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -360px;
+    left: 8700px;
+}
+
+#deskNoteTwo {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -330px;
+    left: 11400px;
+}
+
+#tag {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -276px;
+    left: 13540px;
 }
 
 #easterEgg {
@@ -133,15 +170,31 @@ body
     display: inline;
     position: absolute;
     top: -360px;
-    left: 8400px;   
+    left: 8100px;   
+}
+
+#hobnob {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -280px;
+    left: 9730px;   
+}
+
+#cup {
+    float: left;
+    display: inline;
+    position: absolute;
+    top: -360px;
+    left: 6300px;   
 }
 
 #imageDictaphone {
     float: left;
     display: inline;
     position: absolute;
-    top: -264px;
-    left: 5669px;
+    top: -215px;
+    left: 6780px;
 }
 
 #imageRadio {
@@ -149,13 +202,50 @@ body
     display: inline;
     position: absolute;
     top: -294px;
-    left: 11234px;
+    left: 12095px;
 }
 
 #imagePhone {
     float: left;
     display: inline;
     position: absolute;
-    top: -207px;
-    left: 13380px;
+    top: -305px;
+    left: 13303px;
+}
+
+#suspects {
+    float: right;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#git {
+    float: right;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all 400ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+   -moz-transition: all 400ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+     -o-transition: all 400ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+    transition: all 400ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
+    
+}
+
+#git:hover {
+    float: right;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    -webkit-transition: all 400ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+   -moz-transition: all 400ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+    -o-transition: all 400ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+    transition: all 400ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
 }

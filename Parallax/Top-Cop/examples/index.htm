@@ -45,10 +45,18 @@
       </audio>
       
       
-        
+      <img src="images/boardnoteone.png" id="boardNoteOne">
+      <img src="images/boardnotetwo.png" id="boardNoteTwo">    
       <img src="images/easteregg.jpg" id="easterEgg">
       <img src="images/businesscard.png" id="businessCard">
+      <img src="images/Cup.png" id="cup">    
       <img src="images/Cigarettes.png" id="Cigarettes">
+      <img src="images/Hobnob.png" id="hobnob">
+      <img src="images/desknoteone.png" id="deskNoteOne"> 
+      <img src="images/desknotetwo.png" id="deskNoteTwo">
+      <img src="images/suspect.png" id="suspects">
+        <a href="https://github.com/pixxelfactory/jInvertScroll" target="_blank"><img src="images/git.png" id="git"></a>
+      <img src="images/tag.png" id="tag">
     </div>
     <script type="text/javascript" src="../libs/jquery.min.js"></script>
     <script type="text/javascript" src="../dist/js/jquery.jInvertScroll.js"></script>
@@ -65,8 +73,55 @@
         
         if(percent < 0.0300) {
             $(".ImageTitle").fadeIn(400);
-        }            
+        }
                 
+        if(percent < 0.2000) {
+            $("#boardNoteOne").fadeOut(400);
+        }
+                
+        if(percent > 0.2000) {
+            $("#boardNoteOne").fadeIn(800);
+        }
+                
+         if(percent < 0.4071) {
+            $("#boardNoteTwo").fadeOut(400);
+        }
+                
+        if(percent > 0.4071) {
+            $("#boardNoteTwo").fadeIn(800);
+        }
+        
+         if(percent < 0.5750) {
+            $("#deskNoteOne").fadeOut(400);
+        }
+                
+        if(percent > 0.5750) {
+            $("#deskNoteOne").fadeIn(800);
+        }
+         
+         if(percent < 0.7327) {
+            $("#deskNoteTwo").fadeOut(400);
+        }
+                
+        if(percent > 0.7327) {
+            $("#deskNoteTwo").fadeIn(800);
+        } 
+        
+         if(percent < 0.8734) {
+            $("#tag").fadeOut(400);
+        }
+                
+        if(percent > 0.8734) {
+            $("#tag").fadeIn(800);
+        }
+                
+         if(percent < 0.9340) {
+            $("#suspects").fadeOut(400);
+        }
+                
+        if(percent > 0.9340) {
+            $("#suspects").fadeIn(800);
+        }
                 
             }
         });
@@ -98,6 +153,9 @@ function playPauseThree() {
     else 
         musicThree.pause(); 
 }
+        
+        
+
 
     </script>
 </body>
