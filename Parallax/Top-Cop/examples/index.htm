@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="css/example.css" />
 </head>
 <body>
-    
     <div class="headerImage">
-    <img class="ImageTitle" src="images/title2.png">
+        <img class="ImageTitle" src="images/title2.png">
     </div>
     <div class="horizon scroll">
         <img src="images/deskfinal.png" alt="" />
@@ -17,46 +16,41 @@
         <img src="images/propsnew.png" alt="" />
     </div>
     <div class="front scroll">
-      <video id="video" width="600px" height="400px" controls>
-      <source src="images/Video.mp4" type="video/mp4">  
-      </video>
-        
-      <img id="imageDictaphone" src="images/play.png" onclick="playPause()">
-      <audio id="musicOne">
+        <video id="video" controls>
+            <source src="images/videoOne.mp4" type="video/mp4">  
+        </video>
+        <img id="imageDictaphone" src="images/play.png" onclick="playPause()">
+        <audio id="musicOne">
         <source src="images/musicOne.mp3" type="audio/mpeg">
-      </audio>
-        
-      <video id="videoTwo" width="500px" height="333px" controls>
-      <source src="images/Video.mp4" type="video/mp4">  
-      </video>
-        
-      <video id="videoThree" width="500px" height="333px" controls>
-      <source src="images/Video.mp4" type="video/mp4">  
-      </video>
-        
-      <img id="imageRadio" src="images/button.png" onclick="playPauseTwo()">
-      <audio id="musicTwo">
+        </audio>
+        <video id="videoTwo" controls>
+        <source src="images/videoTwo.mp4" type="video/mp4">  
+        </video>
+        <video id="videoThree" controls>
+        <source src="images/videoThree.mp4" type="video/mp4">  
+        </video>
+        <img id="imageRadio" src="images/button.png" onclick="playPauseTwo()">
+        <audio id="musicTwo">
         <source src="images/musicTwo.mp3" type="audio/mpeg">
-      </audio>
-        
+        </audio>
         <img id="imagePhone" src="images/pause.png" onclick="playPauseThree()">
-      <audio id="musicThree">
+        <audio id="musicThree">
         <source src="images/musicThree.mp3" type="audio/mpeg">
-      </audio>
-      
-      
-      <img src="images/boardnoteone.png" id="boardNoteOne">
-      <img src="images/boardnotetwo.png" id="boardNoteTwo">    
-      <img src="images/easteregg.png" id="easterEgg">
-      <img src="images/businesscard.png" id="businessCard">
-      <img src="images/Cup.png" id="cup">    
-      <img src="images/Cigarettes.png" id="Cigarettes">
-      <img src="images/Hobnob.png" id="hobnob">
-      <img src="images/desknoteone.png" id="deskNoteOne"> 
-      <img src="images/desknotetwo.png" id="deskNoteTwo">
-      <img src="images/suspect.png" id="suspects">
+        </audio>
+        <img src="images/boardnoteone.png" id="boardNoteOne">
+        <img src="images/boardnotetwo.png" id="boardNoteTwo">    
+        <img src="images/easteregg.png" id="easterEgg">
+        <img src="images/businesscard.png" id="businessCard">
+        <img src="images/Cup.png" id="cup">
+        <img src="images/Calendar.png" id="calendar">
+        <img src="images/EvidenceBags.png" id="evidenceBags">    
+        <img src="images/Cigarettes.png" id="Cigarettes">
+        <img src="images/Hobnob.png" id="hobnob">
+        <img src="images/desknoteone.png" id="deskNoteOne"> 
+        <img src="images/desknotetwo.png" id="deskNoteTwo">
+        <img src="images/suspect.png" id="suspects">
         <a href="https://github.com/pixxelfactory/jInvertScroll" target="_blank"><img src="images/git.png" id="git"></a>
-      <img src="images/tag.png" id="tag">
+        <img src="images/tag.png" id="tag">
     </div>
     <script type="text/javascript" src="../libs/jquery.min.js"></script>
     <script type="text/javascript" src="../dist/js/jquery.jInvertScroll.js"></script>
@@ -154,7 +148,7 @@ function playPauseThree() {
         musicThree.pause(); 
 }
  
-        $("#imageDictaphone").hover(function(){
+    $("#imageDictaphone").hover(function(){
         $(this).css('cursor', 'pointer');
         }, function(){
         $(this).css('cursor', 'default');
